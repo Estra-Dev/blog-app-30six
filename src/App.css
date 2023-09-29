@@ -1,0 +1,11 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(202, 201, 207);
+}
+
+.form {
+  box-shadow: 0 0 22px 1px rgb(191, 193, 196);
+}
