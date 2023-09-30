@@ -5,7 +5,7 @@ import { UserContext } from "../UserContext"
 
 const initiateState = {
   name: "",
-  password: ""
+  password: "",
 }
 
 
