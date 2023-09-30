@@ -1,7 +1,7 @@
 import './App.css'
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom"
 import Home from './pages/Home'
-import Login from './pages/login.jsx'
+//import Login from './pages/login.jsx'
 import Register from './pages/register.jsx'
 import Layout from './Layout'
 import { UserContextProvider } from './UserContext'
@@ -19,7 +19,7 @@ function App() {
             <Routes>
               <Route path='/' element={<Layout />}>
                 <Route index element={<Home />} />
-                <Route path='/login' element={<Login />} />
+                {/* <Route path='/login' element={<Login />} /> */}
                 <Route path='/register' element={<Register />} />
                 <Route path='/addpost' element={<AddEdit />} />
                 <Route path='/post/:id' element={<SinglePost />} />
