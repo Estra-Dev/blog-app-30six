@@ -12,7 +12,7 @@ const Post = ({title, summary, cover, createdAt, author, _id}) => {
       </div>
       <div className="img w-[85%]">
         <Link to={`/post/${_id}`}>
-          <img src={`../src/assets/${cover}`} alt={`${cover}`} className=" w-[97%] rounded-md" />
+          <img src={`../dist/assets/${cover}`} alt={`${cover}`} className=" w-[97%] rounded-md" />
         </Link>
       </div>
       <div className="text w-[90%] px-3 py-1">

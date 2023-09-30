@@ -40,7 +40,7 @@ const SinglePost = () => {
       <h1 className=" font-bold text-2xl text-center">{postInfo.title}</h1>
       <pre className=" text-[11px] pt-2 text-gray-500 font-semibold">{formatISO9075(new Date(postInfo.createdAt))}</pre>
       <div>
-        <img src={`../src/assets/${postInfo.cover}`} alt={`${postInfo.cover}`} className=" w-full rounded-sm" />
+        <img src={`../dist/assets/${postInfo.cover}`} alt={`${postInfo.cover}`} className=" w-full rounded-sm" />
       </div>
       <div dangerouslySetInnerHTML={{__html:postInfo.value}} className=" text-[12px]" />
     </div>
