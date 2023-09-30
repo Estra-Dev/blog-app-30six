@@ -1,8 +1,8 @@
 import './App.css'
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom"
 import Home from './pages/Home'
-import Login from './pages/login'
-import Register from './pages/register'
+import Login from './pages/login.jsx'
+import Register from './pages/register.jsx'
 import Layout from './Layout'
 import { UserContextProvider } from './UserContext'
 import AddEdit from './pages/AddEdit'
